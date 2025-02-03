@@ -25,6 +25,11 @@ public class animal {
 		return age;
 	}
 
+	@Override
+	public String toString() {
+		return "animal [species=" + species + ", age=" + age + "]";
+	}
+
 	public void setAge(int age) {
 		this.age = 5;
 	}
